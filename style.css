@@ -1,0 +1,66 @@
+/*
+Daniel Wang 5/8/24
+The Odin Project Foundations Course
+Style sheet for odin recipes.
+*/
+
+body {
+    font-family: Verdana, Tahoma, Trebuchet, 'Times New Roman';
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+img {
+    height: 500px;
+    width: auto;
+}
+
+.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#home {
+    background-color: gray;
+    color: navy
+}
+
+#homepage_title {
+    color:black;
+}
+
+#baklava {
+    background-color: #93C572FF;
+    color: brown;
+}
+
+.baklava_title {
+    color: green;
+}
+
+#papaya_salad {
+    background-color: rgb(204, 255, 51, 0.3);
+    color: rgb(255, 165, 0);
+}
+
+.papaya_title {
+    color: rgb(0, 153, 51);
+}
+
+#chicken_parm {
+    background-color: rgb(255, 166, 0, 0.6);
+    color: rgb(255, 0, 0);
+}
+
+.chicken_parm_title {
+    color: rgb(255, 255, 0)
+}
